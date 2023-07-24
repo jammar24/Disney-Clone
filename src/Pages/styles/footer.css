@@ -1,0 +1,15 @@
+.footer {
+    text-decoration: none;
+     display: flex;
+     justify-content: center;
+     margin-top:450px;
+    color: #fff;
+}
+.footer__y{
+    text-decoration: none;
+    color: rgb(71, 72, 77);
+    margin: 0 9px;
+}
+.footer__y:hover{
+   color: #59a8c2;
+}

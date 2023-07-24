@@ -1,0 +1,55 @@
+.navbar{
+    width: 100%;
+    height: 80px;
+    position:fixed;
+    top: 0;
+    left: 0;
+    padding: 0 4%;
+    background: #0c111b;
+    z-index: 9;
+    display: flex;
+    align-items: center;
+}
+.logop{
+    height: 70px;
+}
+.nav__ln{
+    margin-top: 10px;
+    display: flex;
+    list-style: none;
+    font-size: 12px;
+}
+i {
+    color:#fff;
+    margin-left: 12.5px;
+}
+i:hover{
+    color:#59a8c2;
+}
+.nav__itm a {
+    text-decoration: none;
+    margin-left: 8px;
+    text-transform: uppercase;
+    /*text-transform: capitalize; crece la primera letra*/
+    color: #fff;
+    opacity: 0.9;
+}
+.nav__itm  a:hover{
+    color:#59a8c2;
+}
+.nav__ip{
+    display: flex;
+    margin-left: auto;
+}
+.nav__nameuser{
+     color: #fff;
+     text-transform: capitalize;
+     margin-top: 20px;
+     font-size: 14px;
+     padding: 0 12%;
+}
+.nav__ft{
+    height: 50px;
+    border-radius: 50%;
+}
+
