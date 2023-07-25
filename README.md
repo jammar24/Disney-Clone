@@ -27,8 +27,9 @@ Navegador web moderno (Google Chrome, Mozilla Firefox, etc.).
 
 -Recursos útiles:
 
-Documentación de React: https://legacy.reactjs.org/docs/getting-started.html
-Documentación de JavaScript: https://developer.mozilla.org/es/docs/Web/JavaScript
+-Documentación de React: https://legacy.reactjs.org/docs/getting-started.html
+
+-Documentación de JavaScript: https://developer.mozilla.org/es/docs/Web/JavaScript
 
 -Notas finales:
 

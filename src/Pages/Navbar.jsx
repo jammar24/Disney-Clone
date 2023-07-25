@@ -1,9 +1,11 @@
 import 'react';
 import './styles/navbar.css';
+import { useSelector } from "react-redux";
 import logoDsny from '../assets/dny.png'
 import ft from '../assets/ft.jpg'
 
 const Navbar = () => {
+  const { nameUser} = useSelector((state) => state);
   return (
     <nav className='navbar'>
         <img src= { logoDsny }   className='logop' alt="logo" />
@@ -16,7 +18,7 @@ const Navbar = () => {
             <li className='nav__itm' ><i className='bx bxs-briefcase'></i><a href="#">series</a></li>
         </ul>
         <div className='nav__ip'>
-        <p className='nav__nameuser'>jamcode</p>
+        <p className='nav__nameuser'>{ nameUser }</p>
         <img className='nav__ft' src={ft}  alt="foto de auth" />
         </div>
     </nav>

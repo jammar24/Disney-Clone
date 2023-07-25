@@ -1,15 +1,28 @@
+import { Route, Routes } from 'react-router-dom'
 import './App.css'
-import Categories from './Pages/Categories'
-import Footer from './Pages/Footer'
-import Navbar from './Pages/Navbar'
+import Home from './Pages/Home'
+import ProtectedRoutes from './Pages/ProtectedRoutes'
+import Disney from './Pages/Disney'
 
 function App() {
 
   return (
     <>
-    <Navbar/>
-    <Categories/>
-    <Footer/>
+    <div className="App">
+     <Routes>
+      <Route path='/' element={<Home/>}/>
+
+      <Route element={<ProtectedRoutes/>}>
+      <Route path='/mon' element={<Disney/>}  />
+      </Route>
+       
+    
+     </Routes>
+    </div>
+
+    
+  
+  
     </>
   )
 }
