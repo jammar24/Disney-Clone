@@ -5,6 +5,8 @@ const Carouselmain = () => {
             <div className="slide-content">
               
        <img className='slide__img' src="https://raw.githubusercontent.com/kunaal438/disney-plus-clone/master/images/slider%203.PNG"  alt="" />
+       <img className='slide__img' src="https://raw.githubusercontent.com/kunaal438/disney-plus-clone/master/images/slider%203.PNG"  alt="" />
+       <img className='slide__img' src="https://raw.githubusercontent.com/kunaal438/disney-plus-clone/master/images/slider%203.PNG"  alt="" />
 
        <div className="owl-dots">
         <button role="button" className="owl-dot"><span></span>
