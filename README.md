@@ -1,5 +1,7 @@
 # Proyecto Disney Clon - Frontend
 
+[![banerdisney.png](https://i.postimg.cc/bJXHS2k5/banerdisney.png)](https://postimg.cc/f3K06yH7)
+
 Bienvenido/a al proyecto Disney Clon Frontend! Este es un clon sencillo del sitio web de Disney, donde podrás explorar algunos de los elementos básicos de la interfaz de usuario de Disney. En este proyecto, hemos utilizado React y JavaScript para crear una experiencia similar a la del sitio web oficial de Disney.
 
 ## Instrucciones de uso 🔏:
