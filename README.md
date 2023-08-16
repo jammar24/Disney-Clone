@@ -29,11 +29,11 @@ Si deseas personalizar o extender este proyecto, siéntete libre de modificar el
 ### Contribuir ✒️:
 Si te sientes inspirado/a a contribuir al proyecto, ¡sería genial! Puedes usar el repositorio original, hacer tus cambios y enviar una solicitud de extracción para que podamos revisar y fusionar tus mejoras.
 
-- Requisitos:
+#### Requisitos:
 
   Navegador web moderno (Google Chrome, Mozilla Firefox, etc.).
 
-- Recursos útiles:
+#### Recursos útiles:
 
 - Documentación de React:
   
