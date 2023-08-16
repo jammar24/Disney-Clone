@@ -30,7 +30,6 @@ i:hover{
     text-decoration: none;
     margin-left: 8px;
     text-transform: uppercase;
-    /*text-transform: capitalize; crece la primera letra*/
     color: #fff;
     opacity: 0.9;
 }

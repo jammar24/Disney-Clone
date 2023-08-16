@@ -12,11 +12,13 @@
     margin-top:432px;
     display: flex;
     justify-content: center;
+   
   }
   .home__input {
     width: 100%;
     max-width: 200px;
     cursor: pointer;
+     outline:none ; 
     padding-left: 0.5em;
     border-radius: 1em 0em 0em 1em;
     background: rgb(250, 248, 232);
@@ -25,17 +27,18 @@
       rgb(255, 234, 247) 0%,
       rgb(221, 238, 248) 100%
     );
+
   }
   .home__btn {
     width: 80px;
     border-radius: 1em 1em 1em 1em;
     background:  #1f80e0;
-
     color: rgb(255, 255, 255);
     font-size: 1.1rem;
     height: 1.6em;
     width: 6.9em;
     border: none;
+    outline:none ;
     margin-left: -0.5em;
     cursor: pointer;
     font-weight: 700;
