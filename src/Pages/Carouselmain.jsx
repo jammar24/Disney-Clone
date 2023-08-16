@@ -1,5 +1,5 @@
 import 'react'
-import '../Pages/styles/Carouselmain.css'
+import '../Pages/styles/carouselmain.css'
 const Carouselmain = () => {
   return (
             <div className="slide-content">
