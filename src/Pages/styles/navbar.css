@@ -1,140 +1,134 @@
-.nav__menu-toggle {
-    display: none;
-    color: #fff;
-    font-size: 24px;
-    cursor: pointer;
-  }
-  
-  .nav__menu {
-    display: none;
-    flex-direction: column;
-    background-color: #0c111b;
-    position: absolute;
-    top: 80px;
-    right: 10px;
-    padding: 10px;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    z-index: 10;
-  }
-  
-  .nav__menu.open {
-    display: flex;
-  }
-  
-  .nav__menu a {
-    text-decoration: none;
-    color: #fff;
-    margin-bottom: 10px;
-    opacity: 0.9;
-  }
-  
-  
-  
-
-
-
-
-
-
-
-
-.navbar{
-    width: 100%;
-    height: 80px;
-    position:fixed;
-    top: 0;
-    left: 0;
-    padding: 0 4%;
-    background: #0c111b;
-    z-index: 9;
-    display: flex;
-    align-items: center;
+.navbar {
+  width: 100%;
+  height: 80px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #0c111b;
+  z-index: 9;
+  display: flex;
+  align-items: center;
 }
-.logop{
-    height: 70px;
+.navbar__x {
+  display: none;
+  z-index: 5000000;
+  width: 30px;
+  height: 30px;
 }
-.nav__ln{
-    margin-top: 10px;
-    display: flex;
-    list-style: none;
-    font-size: 12px;
+.logop {
+  height: 70px;
+}
+
+.nav__ln {
+  width: 100vw;
+  margin-top: 10px;
+  display: flex;
+  list-style: none;
+  font-size: 12px;
 }
 i {
-    color:#fff;
-    margin-left: 12.5px;
+  color: #fff;
+  margin-left: 12.5px;
 }
-i:hover{
-    color:#59a8c2;
+i:hover {
+  color: #59a8c2;
 }
 .nav__itm a {
-    text-decoration: none;
-    margin-left: 8px;
-    text-transform: uppercase;
-    color: #fff;
-    opacity: 0.9;
+  text-decoration: none;
+  margin-left: 8px;
+  text-transform: uppercase;
+  color: #fff;
+  opacity: 0.9;
 }
-.nav__itm  a:hover{
-    color:#59a8c2;
+.nav__itm a:hover {
+  color: #59a8c2;
 }
-.nav__ip{
-    display: flex;
-    margin-left: auto;
+.nav__ip {
+  display: flex;
+  margin-left: auto;
 }
-.nav__nameuser{
-     color: #fff;
-     text-transform: capitalize;
-     margin-top: 20px;
-     font-size: 14px;
-     padding: 0 12%;
+.nav__nameuser {
+  color: #fff;
+  text-transform: capitalize;
+  margin-top: 20px;
+  font-size: 14px;
+  padding: 0 12%;
 }
-.nav__ft{
-    height: 50px;
-    border-radius: 50%;
+.nav__ft {
+  height: 50px;
+  border-radius: 50%;
 }
 
 /* Responsive */
 
-@media screen and (max-width : 500px)and (max-width: 300px) {
-    .navbar {
-      flex-direction: column;
-    }
-  
-    .logop {
-      margin-top: 10px;
-      order: 2;
-    }
-  
-    .nav__ln {
-      margin-top: 10px;
-      order: 1;
-    }
-  
-    .nav__ip {
-      order: 3;
-    }
-    .nav__ft{
-        margin-left: 0;
-    }
-  }
-  
-  /* Media Query para pantallas medianas */
-  @media screen and (min-width: 769px) and (max-width: 1024px) {
-    .navbar {
-      padding: 10px;
-    }
-  }
-  
-  /* Media Query para pantallas grandes */
-  @media screen and (min-width: 1025px) {
-    .navbar {
-      padding: 20px;
-    }
+@media (max-width: 480px) {
+  .navbar {
+    flex-direction: column;
+    position: fixed;
+    width: 45%;
+    height: 100vh;
+    left: -100%;
+    top: 0;
+    align-items: flex-start;
+    transition: left 1s;
   }
 
+  .navbar__x {
+    width: 60px;
+    height: 60px;
+    display: block;
+    position: fixed;
+    color: #f8f0f0;
+    top: 5px;
+    right: 5px;
+  }
 
+  .xx {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .navbar-active {
+    left: 0;
+    transition: left 1s;
+  }
+  .nav__ln {
+    flex-direction: column;
+    gap: 3em;
+    padding-top: 180px;
+    order: 1;
+  }
+  .navbar .logop {
+    order: 2;
+    position: absolute;
+    bottom: 65px;
+    left: 0.8em;
+  }
 
+  .nav__ft {
+    position: absolute;
+    top: 0.8em;
+    left: 0.8em;
+    order: 3;
+  }
+  .nav__nameuser {
+    position: absolute;
+    top: 1.3em;
+    left: 4em;
+    order: 3;
+  }
+}
 
+/* Media Query para pantallas medianas */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .navbar {
+    padding: 10px;
+  }
+}
 
-
-
+/* Media Query para pantallas grandes */
+@media screen and (min-width: 1025px) {
+  .navbar {
+    padding: 20px;
+  }
+}

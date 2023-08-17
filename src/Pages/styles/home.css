@@ -38,6 +38,7 @@
     height: 1.6em;
     width: 6.9em;
     border: none;
+    outline:none ; 
     margin-left: -0.5em;
     cursor: pointer;
     font-weight: 700;
