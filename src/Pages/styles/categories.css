@@ -51,20 +51,25 @@
   transform: scale(1.05);
 }
 .disney:hover {
-  background: url("https://prod-ripcut-delivery.disney-plus.net/v1/rawFiles/disney/RAW_C061B00E543326DA345FBF996B4D3D76422B58A49FDEE9AD9A2664618619A8F9");
+  background: url("https://i.gifer.com/origin/33/33efb3883cfaa3fa5b71d9b8aa26f864_w200.webp");
   background-size: cover;
 }
 .pixar:hover {
-  background: url("https://prod-ripcut-delivery.disney-plus.net/v1/rawFiles/disney/RAW_92FA84DF0F5D951171B41E5947716ADA382A15AE5DA37869E9D592D043F49316");
+  background: url("https://i.gifer.com/3kw2.gif");
+  background-size: cover;
 }
 .marvel:hover {
-  background: url("https://prod-ripcut-delivery.disney-plus.net/v1/rawFiles/disney/RAW_B8F3C4DDB037CD1840A53BDFA0AA0504E9FDDE7781D62D28230D5C74F2B06624");
+  background: url("https://i.gifer.com/origin/09/09d0c3bb686821cba562ddbec2356d2a_w200.webp");
+  background-size: cover;
+
 }
+
 .star:hover {
-  background: url("https://prod-ripcut-delivery.disney-plus.net/v1/rawFiles/disney/RAW_59F432D7A600A8F1CE36AE4D0B96570AC7C8277A0E8855BC06FABBAE090E6577");
+  background: url("https://i.gifer.com/origin/7e/7e9a85e0a6fe84c4a0b3161c326d1d52_w200.webp");
+  background-size: cover;
 }
 .natgeo:hover {
-  background: url("https://media1.giphy.com/media/35NGT2lm6mfHlNAkMu/200w.webp?cid=ecf05e47v5iyzr4kquyphj91w92bxo8zaij4ud83d7v9oaal&ep=v1_gifs_search&rid=200w.webp&ct=g");
+  background: url("https://i.gifer.com/origin/1a/1a61ca642024389984cdb0526d3b621b_w200.webp");
   background-size: cover;
 }
 

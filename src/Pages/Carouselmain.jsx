@@ -6,22 +6,22 @@ import "owl.carousel/dist/assets/owl.theme.default.css";
 
 const Carouselmain = () => {
   const images = [
-    "https://raw.githubusercontent.com/kunaal438/disney-plus-clone/master/images/slider%203.PNG",
-    "https://raw.githubusercontent.com/kunaal438/disney-plus-clone/master/images/slider%203.PNG",
-    "https://raw.githubusercontent.com/kunaal438/disney-plus-clone/master/images/slider%203.PNG",
+    "https://imgur.com/aOksKNW.jpg",
+    "https://i.imgur.com/q6HEbXF.jpeg",
+    "https://i.imgur.com/ye7aJLu.jpeg",
+    "https://i.imgur.com/HsMa1tY.jpg",
   ];
 
   return (
     <OwlCarousel
       className="owl-theme"
       loop
-      nav
       items={1}
       autoplay
-      autoplayTimeout={6000}
+      autoplayTimeout={10000}
     >
       {images.map((image, index) => (
-        <div key={index} className="slide-content">
+        <div key={index} className="slide__content">
           <img className="slide__img" src={image} alt={`Slide ${index + 1}`} />
         </div>
       ))}
@@ -30,101 +30,4 @@ const Carouselmain = () => {
 };
 
 export default Carouselmain;
-3  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+3;
