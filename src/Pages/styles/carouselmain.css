@@ -10,7 +10,7 @@
 }
 
 .slide__img {
-  width: 100%;
+  width: 100vh;
   height: 100%;
   object-fit: cover;
   transition: transform 0.3s ease-in-out;
@@ -22,7 +22,7 @@
   align-items: center;
   justify-content: center;
   height: 100vh;
-  overflow: hidden; /* Evitar desbordamiento horizontal */
+  overflow: hidden; 
 }
 
 .carousel {

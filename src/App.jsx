@@ -3,15 +3,18 @@ import './App.css'
 import Home from './Pages/Home'
 import ProtectedRoutes from './Pages/ProtectedRoutes'
 import Disney from './Pages/Disney'
+/*import Loader from './Pages/Loader'*/
 
 function App() {
 
   return (
-    <>
+    <>   
+     
+
     <div className="App">
      <Routes>
       <Route path='/' element={<Home/>}/>
-
+  
       <Route element={<ProtectedRoutes/>}>
       <Route path='/mon' element={<Disney/>}  />
       </Route>
