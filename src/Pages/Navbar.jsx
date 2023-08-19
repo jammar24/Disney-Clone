@@ -24,12 +24,12 @@ const Navbar = () => {
      
         <img src= { logoDsny }   className='logop' alt="logo" />
         <ul className= 'nav__ln' >
-            <li className='nav__itm'><i className='bx bxs-home'></i><a href="#">home</a></li>
-            <li className='nav__itm' ><i className='bx bx-search'></i><a href="#">search</a></li>
-            <li className='nav__itm'  ><i className='bx bx-plus-medical'></i><a href="#">wachtlist</a></li>
-            <li className='nav__itm' > <i className='bx bxs-star'></i><a href="#">original</a></li>
-            <li className='nav__itm' ><i className='bx bxs-palette'></i><a href="#">movies</a></li>
-            <li className='nav__itm' ><i className='bx bxs-briefcase'></i><a href="#">series</a></li>
+            <li className='nav__itm'><i className='bx bxs-home'></i><a href="/mon">home</a></li>
+            <li className='nav__itm' ><i className='bx bx-search'></i><a href="/mon">search</a></li>
+            <li className='nav__itm'  ><i className='bx bx-plus-medical'></i><a href="/mon">wachtlist</a></li>
+            <li className='nav__itm' > <i className='bx bxs-star'></i><a href="/mon">original</a></li>
+            <li className='nav__itm' ><i className='bx bxs-palette'></i><a href="/mon">movies</a></li>
+            <li className='nav__itm' ><i className='bx bxs-briefcase'></i><a href="/mon">series</a></li>
         </ul>
         <div className='nav__ip'>
         <p className='nav__nameuser'>{ nameUser }</p>

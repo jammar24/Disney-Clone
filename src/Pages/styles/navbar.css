@@ -26,6 +26,10 @@
   list-style: none;
   font-size: 12px;
 }
+.nav__ln{
+  color: #59a8c2;
+
+}
 i {
   color: #fff;
   margin-left: 12.5px;

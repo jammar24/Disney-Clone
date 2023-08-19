@@ -3,6 +3,7 @@ import Navbar from './Navbar'
 import Categories from './Categories'
 import Footer from './Footer'
 import Carouselmain from './Carouselmain'
+import Carouselsecond from './Carouselsecond'
 
 const Disney = () => {
   return (
@@ -10,6 +11,7 @@ const Disney = () => {
     <Navbar/>
     <Carouselmain/>
     <Categories/>
+    <Carouselsecond/>
     <Footer/>
     </>
   )
