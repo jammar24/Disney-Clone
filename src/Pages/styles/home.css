@@ -29,6 +29,9 @@
     );
 
   }
+  #name {
+    text-indent:9px;
+  }
   .home__btn {
     width: 80px;
     border-radius: 1em 1em 1em 1em;

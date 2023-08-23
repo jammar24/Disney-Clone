@@ -6,14 +6,15 @@ import './index.css'
 import { Provider } from 'react-redux'
 import store from './store'
 //Router
-import { HashRouter } from 'react-router-dom'
+import { BrowserRouter as Router } from 'react-router-dom';
+
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <HashRouter>
+    <Router>
      <Provider store={store}>
      <App />
     </Provider>
-    </HashRouter>
+    </Router>
   </React.StrictMode>,
 )

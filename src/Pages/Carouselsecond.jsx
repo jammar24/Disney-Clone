@@ -8,6 +8,9 @@ import '../Pages/styles/carouselsecond.css'
 const Carouselsecond = () => {
   return (
     <>
+    <div>
+      <h2 id="movie"> Movies </h2>
+    </div>
       <OwlCarousel
         className="owl-theme"
         loop
@@ -15,6 +18,7 @@ const Carouselsecond = () => {
         autoplay
         autoplayTimeout={15000}
       >
+       
         {dataMovies.map((data) => (
           <>
             <article key={data.imagen} className={` car ${data.imagen}`}>
