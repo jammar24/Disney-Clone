@@ -5,11 +5,11 @@ import "owl.carousel/dist/assets/owl.theme.default.css";
 import dataMovies from "../helpers/datamovies";
 import '../Pages/styles/carouselsecond.css'
 
-const Carouselsecond = () => {
+const Carouselthird = () => {
   return (
     <>
     <div>
-      <h2 id="movie"> Movies </h2>
+      <h2 id="movie"> Series </h2>
     </div>
       <OwlCarousel
         className="owl-theme"
@@ -29,7 +29,7 @@ const Carouselsecond = () => {
         ))}
       </OwlCarousel>
     </>
-  );
-};
+  )
+}
 
-export default Carouselsecond;
+export default Carouselthird
