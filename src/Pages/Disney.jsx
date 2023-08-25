@@ -5,6 +5,7 @@ import Footer from './Footer'
 import Carouselmain from './Carouselmain'
 import Carouselsecond from './Carouselsecond'
 import Carouselthird from './Carouselthird'
+import Carouselfour from './Carouselfour'
 
 const Disney = () => {
   return (
@@ -14,6 +15,7 @@ const Disney = () => {
     <Categories/>
     <Carouselsecond/>
     <Carouselthird/>
+    <Carouselfour/>
     <Footer/>
     </>
   )

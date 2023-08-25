@@ -2,14 +2,13 @@ import "react";
 import OwlCarousel from "react-owl-carousel";
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
-import dataSeries from "../helpers/dataseries";
+import dataDocumental from "../helpers/datadocumental";
 import '../Pages/styles/carouselsecond.css'
-
-const Carouselthird = () => {
+const Carouselfour = () => {
   return (
     <>
     <div>
-      <h2 id="movie"> Series </h2>
+      <h2 id="movie"> Documentales </h2>
     </div>
       <OwlCarousel
         className="owl-theme"
@@ -19,7 +18,7 @@ const Carouselthird = () => {
         autoplayTimeout={15000}
       >
        
-        {dataSeries.map((data) => (
+        {dataDocumental.map((data) => (
           <>
             <article key={data.imagen} className={` car ${data.imagen}`}>
               <img className="img" src={data.imagen}  /> 
@@ -32,4 +31,4 @@ const Carouselthird = () => {
   )
 }
 
-export default Carouselthird
+export default Carouselfour
