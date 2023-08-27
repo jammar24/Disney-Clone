@@ -1,0 +1,56 @@
+
+.car-uno {
+    display: flex;
+    width: 100%;
+    height: auto;
+    position: relative;
+    margin: 1em;
+    padding: 22px;
+  }
+  #series {
+     color: #fff;
+    font-size: 20px;
+    display: flex;
+   margin-top:55px;
+  
+  }
+  .img-uno {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    max-height: 100%;
+  }
+  .list-btn-uno {
+    position: absolute;
+    width: 100%;
+    top: 82%;
+    left: -20px;
+    font-size: 14px;
+    text-transform: capitalize;
+    background: none;
+    border: none;
+    font-weight:500;
+    text-align: right;
+    color: rgb(255, 255, 255);
+    margin: 2px 0 ;
+    cursor: pointer;
+    padding: 10px 5px 10px 52px ;
+    border-radius: 5px;
+    padding-right: 57px;
+  }
+  .list-btn-uno::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -5px;
+    height: 35px;
+    width: 35px;
+    background-image: url(images/add.png);
+    background-size: cover;
+    transform: scale(0.4);
+  }
+  .list-btn-uno:hover {
+    color: #fff;
+    background: rgb(255, 255, 255);
+  }
+  
