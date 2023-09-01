@@ -8,11 +8,13 @@ const Carouselfour = () => {
   return (
     <>
     <div>
-      <h2 id="documental"> Documentales </h2>
+      <h2 id="documental">For You </h2>
     </div>
       <OwlCarousel
         className="owl-theme"
+        dotsContainer= "false"
         items={6}
+        loop
         autoplay
         autoplayTimeout={15000}
       >

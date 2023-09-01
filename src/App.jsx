@@ -3,7 +3,7 @@ import './App.css'
 import Home from './Pages/Home'
 import ProtectedRoutes from './Pages/ProtectedRoutes'
 import Disney from './Pages/Disney'
-/*import Loader from './Pages/Loader'*/
+
 
 function App() {
 

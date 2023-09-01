@@ -14,6 +14,8 @@ const Carouselthird = () => {
       <OwlCarousel
         className="owl-theme"
         items={6}
+        loop
+     dotsContainer= "false"
         autoplay
         autoplayTimeout={15000}
       >

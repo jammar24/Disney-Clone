@@ -13,9 +13,9 @@ const Disney = () => {
     <Navbar/>
     <Carouselmain/>
     <Categories/>
+    <Carouselfour/>
     <Carouselsecond/>
     <Carouselthird/>
-    <Carouselfour/>
     <Footer/>
     </>
   )

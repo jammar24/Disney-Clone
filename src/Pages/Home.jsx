@@ -3,6 +3,7 @@ import { setNameUser } from "../store/slices/userName.Slice";
 import { useDispatch, useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import "./styles/home.css";
+import Loader from './Loader';
 
 const Home = () => {
     const { nameUser } = useSelector((state) => state);
@@ -13,8 +14,19 @@ const Home = () => {
       e.preventDefault();
       dispatch(setNameUser(e.target.name.value.trim()));
       e.target.name.value = "";
-      navigate("/mon");
+    
+     setTimeout(() => {
+       navigate("/mon");
+     }, 3000);
+
     };
+if( nameUser) {
+  return <Loader/>
+  
+}else{
+
+
+
   return (
     <div className="home">
     <div className="home__container">
@@ -32,7 +44,7 @@ const Home = () => {
     </div>
   </div>
 );
-};
-
+}
+}
 
 export default Home

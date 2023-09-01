@@ -13,7 +13,9 @@ const Carouselsecond = () => {
     </div>
       <OwlCarousel
         className="owl-theme"
+        dotsContainer= "false"
         items={6}
+        loop
         autoplay
         autoplayTimeout={15000}
       >
