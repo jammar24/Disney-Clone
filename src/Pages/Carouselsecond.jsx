@@ -16,6 +16,19 @@ const Carouselsecond = () => {
         dotsContainer= "false"
         items={6}
         loop
+        responsive={{
+          0: {
+            items: 1, // En pantallas pequeñas, muestra 1 elemento a la vez
+          },
+          600: {
+            items: 3, // En pantallas medianas, muestra 3 elementos a la vez
+          },
+          1000: {
+            items: 6, // En pantallas grandes, muestra 6 elementos a la vez
+          },
+        }}
+        
+        margin={37}
         autoplay
         autoplayTimeout={15000}
       >

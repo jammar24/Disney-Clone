@@ -17,7 +17,7 @@ const Home = () => {
     
      setTimeout(() => {
        navigate("/mon");
-     }, 3000);
+     }, 4500);
 
     };
 if( nameUser) {
