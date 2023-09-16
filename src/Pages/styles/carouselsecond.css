@@ -1,22 +1,23 @@
 .car {
   display: flex;
   flex-wrap: wrap;
+
   width: 100%;
   height: auto;
   position: relative;
 }
 #movie {
+  
   color: #fff;
   font-size: 20px;
   display: flex;
-  margin-top: 1px;
+  margin-top: 75px;
 }
 .img {
   width: 200px;
   height: 278px;
   flex: 1;
   max-width: 100%;
-
   object-fit: cover;
 }
 .list-btn {
@@ -33,18 +34,6 @@
   text-align: center;
   color: rgb(249, 240, 240);
   cursor: pointer;
-}
-.list-btn::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  background-color: darkorange;
-  left: 0;
-  height: 35px;
-  width: 35px;
-  background-image: url(images/add.png);
-  background-size: cover;
-  transform: scale(0.4);
 }
 .list-btn:hover {
   color: #fff;
