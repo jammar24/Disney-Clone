@@ -20,7 +20,7 @@ Las imágenes y otros recursos están en la carpeta "assets".
 Para visualizar el sitio web,  ejecuta el comando npm run dev.
  Te recomendamos utilizar un navegador moderno como Google Chrome o Mozilla Firefox para una mejor experiencia.
 
- ####Dependencias:
+ #### Dependencias:
 
 -@fortawesome/fontawesome-svg-core (^6.4.2): Biblioteca para iconos vectoriales.
 
@@ -44,7 +44,7 @@ Para visualizar el sitio web,  ejecuta el comando npm run dev.
 
 -react-router-dom (^6.14.2): Enrutador de navegación para aplicaciones React.
 
-####DevDependencies:
+#### DevDependencies:
 
 -@types/react (^18.2.15): Tipos TypeScript para React.
 
