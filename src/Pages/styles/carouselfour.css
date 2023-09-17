@@ -3,6 +3,7 @@
   flex-wrap: wrap;
   width: 100%;
   height: auto;
+  margin-top: 1em;
   position: relative;
 }
 #documental {

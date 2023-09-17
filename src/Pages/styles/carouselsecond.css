@@ -1,7 +1,7 @@
 .car {
   display: flex;
   flex-wrap: wrap;
-
+  margin-top: 1em;
   width: 100%;
   height: auto;
   position: relative;
