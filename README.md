@@ -20,6 +20,48 @@ Las imágenes y otros recursos están en la carpeta "assets".
 Para visualizar el sitio web,  ejecuta el comando npm run dev.
  Te recomendamos utilizar un navegador moderno como Google Chrome o Mozilla Firefox para una mejor experiencia.
 
+ #### Dependencias:
+
+-@fortawesome/fontawesome-svg-core (^6.4.2): Biblioteca para iconos vectoriales.
+
+-@fortawesome/free-solid-svg-icons (^6.4.2): Conjunto de iconos sólidos de FontAwesome.
+
+-@fortawesome/react-fontawesome (^0.2.0): Componente React para FontAwesome.
+
+-@reduxjs/toolkit (^1.9.5): Librería para gestionar el estado de la aplicación en React.
+
+-axios (^1.4.0): Cliente HTTP para realizar solicitudes a servidores.
+
+-gsap (^3.12.2): Biblioteca de animación GreenSock Animation Platform.
+
+-react (^18.2.0): Biblioteca principal de React para crear componentes UI.
+
+-react-dom (^18.2.0): Renderizador de React para la web.
+
+-react-owl-carousel (^2.3.3): Componente React para un carrusel de imágenes.
+
+-react-redux (^8.1.1): Integración de Redux con React.
+
+-react-router-dom (^6.14.2): Enrutador de navegación para aplicaciones React.
+
+#### DevDependencies:
+
+-@types/react (^18.2.15): Tipos TypeScript para React.
+
+-@types/react-dom (^18.2.7): Tipos TypeScript para ReactDOM.
+
+-@vitejs/plugin-react (^4.0.3): Plugin Vite para React.
+
+-eslint (^8.45.0): Herramienta para mantener la calidad del código.
+
+-eslint-plugin-react (^7.32.2): Reglas de ESLint para proyectos React.
+
+-eslint-plugin-react-hooks (^4.6.0): Reglas de ESLint para ganchos (hooks) de React.
+
+-eslint-plugin-react-refresh (^0.4.3): Plugin ESLint para la actualización en caliente (hot reloading) de React.
+
+-vite (^4.4.5): Herramienta de desarrollo rápida para proyectos web.
+
 ### Explorar la aplicación 🖥️:
 
 Una vez que hayas abierto el sitio web, explora las diferentes secciones como la página principal, la galería de categorias, la lista de películas y cualquier otra sección que hayamos implementado.
