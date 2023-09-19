@@ -49,22 +49,22 @@
 
   .img {
     width: 100%;
-    height: auto;
+
   }
 }
 
-/* Estilos para pantallas medianas (por ejemplo, tabletas) */
+/* Estilos para pantallas medianas */
 @media (min-width: 768px) and (max-width: 1199px) {
   .img {
     width: 50%;
-    height: auto;
+   
   }
 }
 
-/* Estilos para pantallas grandes (por ejemplo, escritorios) */
+/* Estilos para pantallas grandes */
 @media (min-width: 1200px) {
   .img {
     width: 33.33%;
-    height: auto;
+ 
   }
 }

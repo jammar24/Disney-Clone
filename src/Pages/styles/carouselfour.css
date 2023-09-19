@@ -44,27 +44,27 @@
 @media (max-width: 767px) {
   #documental {
     font-size: 16px;
-    margin-top: 510px;
+    margin-top: 480px;
   }
 
   .img-two {
-    width: 100%;
-    height:auto;
+    width: 100vh;
+
   }
 }
 
-/* Estilos para pantallas medianas (por ejemplo, tabletas) */
+/* Estilos para pantallas medianas*/
 @media (min-width: 768px) and (max-width: 1199px) {
   .img-two {
     width: 50%;
-    height:auto;
+
   }
 }
 
-/* Estilos para pantallas grandes (por ejemplo, escritorios) */
+/* Estilos para pantallas grandes  */
 @media (min-width: 1200px) {
   .img-two {
     width: 33.33%;
-    height: auto;
+
   }
 }
