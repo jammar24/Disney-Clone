@@ -45,6 +45,7 @@
   #movie {
     font-size: 16px;
     margin-top: 50px;
+
   }
 
   .img {
@@ -54,10 +55,10 @@
 }
 
 /* Estilos para pantallas medianas */
-@media (min-width: 768px) and (max-width: 1199px) {
+@media  (max-width: 1199px) {
   .img {
     width: 50%;
-   
+    height: 355px;
   }
 }
 

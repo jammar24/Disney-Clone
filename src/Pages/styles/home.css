@@ -9,7 +9,7 @@
     width: 100%;
 }
 .home__form {
-    margin-top:432px;
+    margin-top : 150%;
     display: flex;
     justify-content: center;
    
@@ -53,3 +53,4 @@
     filter: brightness(1.2);
     color: rgb(68, 222, 228);
   }
+

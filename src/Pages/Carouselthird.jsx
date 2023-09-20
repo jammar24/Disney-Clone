@@ -17,7 +17,7 @@ const Carouselthird = () => {
         loop
         responsive={{
           0: {
-            items: 1, // En pantallas pequeñas, muestra 1 elemento a la vez
+            items: 2, // En pantallas pequeñas, muestra 1 elemento a la vez
           },
           600: {
             items: 3, // En pantallas medianas, muestra 3 elementos a la vez
